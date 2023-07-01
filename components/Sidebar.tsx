@@ -18,9 +18,9 @@ const Sidebar = () => {
             <h3 className='sidebar-wrapper__name'>
                 Divine Cudtad
             </h3>
-            <p className='mt-2'>Web Developer</p>
+            <p className='mt-1'>Web Developer</p>
 
-            <div className='grid grid-cols-12 gap-2 mt-3'>
+            <div className='grid grid-cols-12 gap-2 mt-4'>
                 <Link className='col-span-12' href={"/"}>
                     Home
                 </Link>

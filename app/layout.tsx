@@ -14,10 +14,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="grid grid-cols-12">
-        <div className='col-span-4 relative'>
+        <div className='col-span-3 relative'>
           <Sidebar />
         </div>
-        <div className='col-span-8'>
+        <div className='col-span-9'>
           {children}
         </div>
       </body>

@@ -12,6 +12,14 @@
   font-family: "Manrope", sans-serif;
 }
 
+/* Custom component */
+
+.custom-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .sidebar-wrapper {
   position: absolute;
   width: 100%;
@@ -31,4 +39,58 @@
   font-weight: 700;
   font-size: 1.8rem;
   color: black;
+}
+
+.main-home {
+  background-color: #fff;
+  height: 100vh;
+}
+
+
+
+.main-home__slides__content {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.main-home__slides__content-name {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: black;
+}
+
+.move-up {
+  animation: moveUp 2s ease;
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
